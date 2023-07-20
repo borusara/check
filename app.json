@@ -1,6 +1,6 @@
 {
   "name": "check",
   "description": "Nothing much",
-  "repository": "https://github.com/borusara/your-repo-name",
+  "repository": "https://github.com/borusara/check.git",
   "image": "heroku/python"
 }
