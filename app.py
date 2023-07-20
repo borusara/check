@@ -5,7 +5,7 @@ from flask import Flask, send_from_directory, make_response
 app = Flask(__name__)
 
 # Replace 'images' with the path to your folder containing random images
-IMAGES_FOLDER = 'images'
+IMAGES_FOLDER = 'Saved Pictures'
 
 # Get a list of all image files in the 'images' folder
 image_files = [file for file in os.listdir(IMAGES_FOLDER) if file.lower().endswith(('.jpg', '.jpeg', '.png', '.gif'))]
