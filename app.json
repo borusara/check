@@ -1,6 +1,22 @@
 {
-  "name": "check",
-  "description": "Nothing much",
-  "repository": "https://github.com/borusara/check.git",
-  "image": "heroku/python"
+  "name": "Your-App-Name",
+  "description": "A brief description of your Flask app",
+  "repository": "https://github.com/your-username/your-repo-name",
+  "image": "heroku/python",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your Telegram bot token"
+    },
+    "API_ID": {
+      "description": "Your Telegram API ID"
+    },
+    "API_HASH": {
+      "description": "Your Telegram API Hash"
+    }
+  }
 }
